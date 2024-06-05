@@ -12,7 +12,7 @@ export const Signup = () => {
     const URL = 'signup'
 
     function handleSubmit(){
-      fetch('https://urban-spoon-q7vv7x4wvvxqc9xrv-3001.app.github.dev/signup', {
+      fetch('https://laughing-guacamole-v6pp65rxpp752xxw4-3001.app.github.dev/signup', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

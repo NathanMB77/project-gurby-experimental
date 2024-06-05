@@ -12,7 +12,7 @@ export const Login = () => {
     const URL = 'login'
 
     function handleSubmit() {
-        fetch('https://urban-spoon-q7vv7x4wvvxqc9xrv-3001.app.github.dev/login', {
+        fetch('https://laughing-guacamole-v6pp65rxpp752xxw4-3001.app.github.dev/login', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'

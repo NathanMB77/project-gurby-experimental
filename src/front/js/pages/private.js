@@ -14,7 +14,7 @@ export const Private = () => {
       }
 
       try {
-        const response = await fetch('https://urban-spoon-q7vv7x4wvvxqc9xrv-3001.app.github.dev/protected', {
+        const response = await fetch('https://laughing-guacamole-v6pp65rxpp752xxw4-3001.app.github.dev/protected', {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,

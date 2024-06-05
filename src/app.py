@@ -25,7 +25,7 @@ app.config['JWT_SECRET_KEY'] = os.environ.get('SECRET_KEY')
 app.url_map.strict_slashes = False
 jwt = JWTManager(app)
 
-CORS(app, resources={r"/*": {"origins": "https://urban-spoon-q7vv7x4wvvxqc9xrv-3000.app.github.dev"}})
+CORS(app, resources={r"/*": {"origins": "https://laughing-guacamole-v6pp65rxpp752xxw4-3000.app.github.dev"}})
 
 # database condiguration
 db_url = os.getenv("DATABASE_URL")
